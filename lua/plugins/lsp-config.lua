@@ -39,15 +39,13 @@ return {
       require('mason-lspconfig').setup()
       local servers = {
         bashls = {},
-        bufls = {},
-        dagger = {},
         docker_compose_language_service = {},
         dockerls = {},
         helm_ls = {},
         jsonls = {},
         marksman = {},
         gopls = {},
-        rust_analyzer = {},
+        solargraph = {},
         sqlls = {},
         terraformls = {},
         yamlls = {},

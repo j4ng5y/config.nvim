@@ -5,6 +5,7 @@ return {
     'williamboman/mason.nvim',
     'jay-babu/mason-nvim-dap.nvim',
     'leoluz/nvim-dap-go',
+    'suketa/nvim-dap-ruby',
   },
   config = function()
     local dap = require 'dap'
