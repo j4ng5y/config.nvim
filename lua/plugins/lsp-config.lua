@@ -45,7 +45,7 @@ return {
         jsonls = {},
         marksman = {},
         gopls = {},
-        solargraph = {},
+        ruby_ls = {},
         sqlls = {},
         terraformls = {},
         yamlls = {},
