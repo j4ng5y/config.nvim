@@ -5,14 +5,10 @@ return {
   },
   build = ':TSUpdate',
   config = function ()
-    -- [[ Configure Treesitter ]]
-    -- See `:help nvim-treesitter`
-    -- Defer Treesitter setup after first render to improve startup time of 'nvim {filename}'
     vim.defer_fn(function()
       require('nvim-treesitter.configs').setup {
-        -- Autoinstall languages that are not installed. Defaults to false (but you can change for yourself!)
+        ensure_installed = {"css", "bash", "html", "git_config", "git_rebase", "gitattributes", "gitcommit", "gitignore", "go", "gomod", "gosum", "gowork", "hcl", "javascript", "json", "lua", "make", "markdown", "markdown_inline", "proto", "python", "ruby", "scss", "sql", "ssh_config", "terraform", "toml", "typescript", "xml", "yaml" },
         auto_install = true,
-    
         highlight = { enable = true },
         indent = { enable = true },
         incremental_selection = {
