@@ -16,7 +16,7 @@ return {
       automatic_installation = true,
       handlers = {},
       ensure_installed = {
-        'delve',
+        'delve', 'stylua', 'debugpy', 'bash-debug-adapter', 'codelldb'
       },
     }
 
