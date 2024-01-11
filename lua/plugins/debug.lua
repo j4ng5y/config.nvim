@@ -26,6 +26,7 @@ return {
     vim.keymap.set('n', '<leader>dn', dap.step_into, { desc = '[D]ebug: Step I[n]to' })
     vim.keymap.set('n', '<leader>dv', dap.step_over, { desc = '[D]ebug: Step O[v]er' })
     vim.keymap.set('n', '<leader>do', dap.step_out, { desc = '[D]ebug: Step [O]ut' })
+    vim.keymap.set('n', '<leader>dx', dap.terminate, { desc = '[D]ebug: Terminate' })
     vim.keymap.set('n', '<leader>db', dap.toggle_breakpoint, { desc = '[D]ebug: Toggle [B]reakpoint' })
     vim.keymap.set('n', '<leader>dB', function()
       dap.set_breakpoint(vim.fn.input 'Breakpoint condition: ')
