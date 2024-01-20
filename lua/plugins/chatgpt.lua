@@ -3,9 +3,7 @@ return {
     "jackMort/ChatGPT.nvim",
     event = "VeryLazy",
     config = function ()
-      require("chatgpt").setup({
-        api_key_cmd = "echo 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"
-      })
+      require("chatgpt").setup({})
       vim.keymap.set({'n', 'v'}, '<leader>cc', '<cmd>ChatGPT<CR>', { desc = '[C]hatGPT' })
       vim.keymap.set({'n', 'v'}, '<leader>ce', '<cmd>ChatGPTEditWithInstruction<CR>', { desc = '[C]hatGPT [E]dit With Instructions' })
       vim.keymap.set({'n', 'v'}, '<leader>cg', '<cmd>ChatGPTRun grammer_correction<CR>', { desc = '[C]hatGPT [G]rammer Correction' })
