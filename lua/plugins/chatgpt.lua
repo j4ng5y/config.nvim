@@ -4,8 +4,8 @@ return {
     event = "VeryLazy",
     config = function ()
       require("chatgpt").setup({
-        api_key_cmd = 'bw get notes OpenAI API Key'
-
+        api_key_cmd = 'bw get notes OpenAI API Key',
+        predefined_chat_gpt_prompts = 'https://raw.githubusercontent.com/j4ng5y/config.nvim/main/prompts.csv'
       })
       vim.keymap.set({'n', 'v'}, '<leader>cc', '<cmd>ChatGPT<CR>', { desc = '[C]hatGPT' })
       vim.keymap.set({'n', 'v'}, '<leader>cz', '<cmd>ChatGPTCompleteCode<CR>', { desc = '[C]hatGPT Complete Code' })
