@@ -3,8 +3,12 @@ return {
     "jackMort/ChatGPT.nvim",
     event = "VeryLazy",
     config = function ()
-      require("chatgpt").setup({})
+      require("chatgpt").setup({
+        api_key_cmd = 'bw get notes OpenAI API Key'
+
+      })
       vim.keymap.set({'n', 'v'}, '<leader>cc', '<cmd>ChatGPT<CR>', { desc = '[C]hatGPT' })
+      vim.keymap.set({'n', 'v'}, '<leader>cz', '<cmd>ChatGPTCompleteCode<CR>', { desc = '[C]hatGPT Complete Code' })
       vim.keymap.set({'n', 'v'}, '<leader>ce', '<cmd>ChatGPTEditWithInstruction<CR>', { desc = '[C]hatGPT [E]dit With Instructions' })
       vim.keymap.set({'n', 'v'}, '<leader>cg', '<cmd>ChatGPTRun grammer_correction<CR>', { desc = '[C]hatGPT [G]rammer Correction' })
       vim.keymap.set({'n', 'v'}, '<leader>ct', '<cmd>ChatGPTRun translate<CR>', { desc = '[C]hatGPT [T]ranslate' })
