@@ -21,10 +21,10 @@ return {
     config = function ()
       require("chatgpt").setup({
         api_key_cmd = 'bw get notes OpenAI API Key',
-        -- openai_params = {
+         openai_params = {
         --   model = 'gpt-4-1106-preview',
-        --   max_tokens = 1000,
-        -- },
+           max_tokens = 4096,
+         },
         -- openai_edit_params = {
         --   model = 'gpt-4-1106-preview',
         -- },
