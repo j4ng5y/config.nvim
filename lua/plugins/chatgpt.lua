@@ -5,8 +5,17 @@ return {
     config = function ()
       require("chatgpt").setup({
         api_key_cmd = 'bw get notes OpenAI API Key',
+        -- openai_params = {
+        --   model = 'gpt-4-1106-preview',
+        --   max_tokens = 1000,
+        -- },
+        -- openai_edit_params = {
+        --   model = 'gpt-4-1106-preview',
+        -- },
         predefined_chat_gpt_prompts = 'https://raw.githubusercontent.com/j4ng5y/config.nvim/main/prompts.csv'
+
       })
+      vim.keymap.set({'n', 'v'}, '<leader>ci', '<cmd>ChatGPTActAs<CR>', { desc = '[C]hatGPT Act As ([I]mpersonate)' })
       vim.keymap.set({'n', 'v'}, '<leader>cc', '<cmd>ChatGPT<CR>', { desc = '[C]hatGPT' })
       vim.keymap.set({'n', 'v'}, '<leader>cz', '<cmd>ChatGPTCompleteCode<CR>', { desc = '[C]hatGPT Complete Code' })
       vim.keymap.set({'n', 'v'}, '<leader>ce', '<cmd>ChatGPTEditWithInstruction<CR>', { desc = '[C]hatGPT [E]dit With Instructions' })
