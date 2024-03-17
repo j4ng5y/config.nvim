@@ -7,7 +7,7 @@ return {
   config = function ()
     vim.defer_fn(function()
       require('nvim-treesitter.configs').setup {
-        ensure_installed = {"css", "bash", "html", "git_config", "git_rebase", "gitattributes", "gitcommit", "gitignore", "go", "gomod", "gosum", "gowork", "hcl", "javascript", "json", "lua", "make", "markdown", "markdown_inline", "proto", "python", "regex", "ruby", "scss", "sql", "ssh_config", "terraform", "toml", "typescript", "xml", "yaml" },
+        ensure_installed = {"arduino", "c", "cpp", "css", "bash", "html", "git_config", "git_rebase", "gitattributes", "gitcommit", "gitignore", "go", "gomod", "gosum", "gowork", "hcl", "javascript", "json", "lua", "make", "markdown", "markdown_inline", "proto", "python", "regex", "ruby", "scss", "sql", "ssh_config", "terraform", "toml", "typescript", "xml", "yaml" },
         sync_install = false,
         auto_install = true,
         ignore_install = {},
