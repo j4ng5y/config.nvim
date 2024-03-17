@@ -22,12 +22,9 @@ return {
       require("chatgpt").setup({
         api_key_cmd = 'bw get notes OpenAI API Key',
          openai_params = {
-        --   model = 'gpt-4-1106-preview',
-           max_tokens = 4096,
+           model = 'gpt-4-turbo-preview',
+           max_tokens = 128000,
          },
-        -- openai_edit_params = {
-        --   model = 'gpt-4-1106-preview',
-        -- },
         predefined_chat_gpt_prompts = 'https://raw.githubusercontent.com/j4ng5y/config.nvim/main/prompts.csv'
 
       })
