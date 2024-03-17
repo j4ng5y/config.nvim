@@ -7,7 +7,6 @@ return {
         -- Code Actions
         null_ls.builtins.code_actions.gitsigns,
         null_ls.builtins.code_actions.gomodifytags,
-        null_ls.builtins.code_actions.shellcheck,
         -- Diagnostics
         null_ls.builtins.diagnostics.buf,
         null_ls.builtins.diagnostics.codespell,
@@ -16,7 +15,6 @@ return {
         null_ls.builtins.diagnostics.mypy,
         null_ls.builtins.diagnostics.protolint,
         null_ls.builtins.diagnostics.rubocop,
-        null_ls.builtins.diagnostics.shellcheck,
         null_ls.builtins.diagnostics.terraform_validate,
         null_ls.builtins.diagnostics.tfsec,
         null_ls.builtins.diagnostics.yamllint,
@@ -29,7 +27,6 @@ return {
         null_ls.builtins.formatting.goimports,
         null_ls.builtins.formatting.goimports_reviser,
         null_ls.builtins.formatting.hclfmt,
-        null_ls.builtins.formatting.json_tool,
         null_ls.builtins.formatting.protolint,
         null_ls.builtins.formatting.rubocop,
         null_ls.builtins.formatting.shellharden,
