@@ -9,9 +9,7 @@ return {
         null_ls.builtins.code_actions.gomodifytags,
         -- Diagnostics
         null_ls.builtins.diagnostics.buf,
-        null_ls.builtins.diagnostics.codespell,
         null_ls.builtins.diagnostics.golangci_lint,
-        null_ls.builtins.diagnostics.jsonlint,
         null_ls.builtins.diagnostics.mypy,
         null_ls.builtins.diagnostics.protolint,
         null_ls.builtins.diagnostics.rubocop,
@@ -22,7 +20,6 @@ return {
         -- Formatters
         null_ls.builtins.formatting.black,
         null_ls.builtins.formatting.buf,
-        null_ls.builtins.formatting.codespell,
         null_ls.builtins.formatting.gofumpt,
         null_ls.builtins.formatting.goimports,
         null_ls.builtins.formatting.goimports_reviser,
