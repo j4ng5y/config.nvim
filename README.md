@@ -108,3 +108,14 @@ This config stands on the shoulders of the following giants:
   - Multiple Cursors Support
 - [which-key.nvim](https://github.com/folke/which-key.nvim)
   - Keybindings Helper
+- [neovim](https://neovim.io/)
+  - The Best Text Editor
+
+If you want to create your own config, I highly recommend checking out the "Neovim for Newbs" youtube series by typecraft. They are all fantastic.
+
+[![Neovim for Newbs: Episode 1](https://img.youtube.com/vi/zHTeCSVAFNY/0.jpg)](https://www.youtube.com/watch?v=zHTeCSVAFNY)
+[![Neovim for Newbs: Episode 2](https://img.youtube.com/vi/4zyZ3sw_ulc/0.jpg)](https://www.youtube.com/watch?v=4zyZ3sw_ulc)
+[![Neovim for Newbs: Episode 3](https://img.youtube.com/vi/S-xzYgTLVJE/0.jpg)](https://www.youtube.com/watch?v=S-xzYgTLVJE)
+[![Neovim for Newbs: Episode 4](https://img.youtube.com/vi/SxuwQJ0JHMU/0.jpg)](https://www.youtube.com/watch?v=SxuwQJ0JHMU)
+[![Neovim for Newbs: Episode 5](https://img.youtube.com/vi/iXIwm4mCpuc/0.jpg)](https://www.youtube.com/watch?v=iXIwm4mCpuc)
+[![Neovim for Newbs: Episode 6](https://img.youtube.com/vi/oYzZxi3SSnM/0.jpg)](https://www.youtube.com/watch?v=oYzZxi3SSnM)
